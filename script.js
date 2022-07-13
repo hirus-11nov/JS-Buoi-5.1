@@ -49,7 +49,7 @@ ex1();
 console.log("-----Bài 2: Tính tiền điện-----");
 function ex2() {
     var fullName = "Hieu Trung Bui";
-    var kw = 51;
+    var kw = 360;
     var totalPrice;
 
     if (kw <= 50) {
@@ -59,7 +59,7 @@ function ex2() {
     } else if (kw <= 200) {
         totalPrice = 50 * 500 + 50 * 650 + (kw - 100) * 850;
     } else if (kw <= 350) {
-        totalPrice = 50 * 500 + 50 * 650 + 100 * 850 + (kw - 150) * 1100;
+        totalPrice = 50 * 500 + 50 * 650 + 100 * 850 + (kw - 200) * 1100;
     } else {
         totalPrice = 50 * 500 + 50 * 650 + 100 * 850 + 150 * 1100 + (kw - 350) * 1300;
     }
