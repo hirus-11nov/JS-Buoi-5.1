@@ -49,7 +49,7 @@ ex1();
 console.log("-----Bài 2: Tính tiền điện-----");
 function ex2() {
     var fullName = "Hieu Trung Bui";
-    var kw = 360;
+    var kw = 150;
     var totalPrice;
 
     if (kw <= 50) {
